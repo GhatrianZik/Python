@@ -1,0 +1,3 @@
+word = str(input("Enter word: "))
+
+print(word[1], "\n", word[len(word)-2])
