@@ -1,0 +1,6 @@
+import math
+
+print("Введи число m:")
+m = input()
+
+print("z == ", math.sqrt(int(m)) + 10)
