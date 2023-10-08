@@ -1,0 +1,25 @@
+table = []
+start = False
+count = 0
+num = 0
+
+print("Enter x:")
+x = input()
+
+print("Enter y:")
+y = input()
+
+for i in range(int(y)):
+
+    if i == int(x):
+        start = True
+
+    if start == True:
+        if float(i/2) == int(i/2):
+            table.append(i)
+
+for v in table:
+    num += v
+    count += 1
+
+print("\nCереднє арифметичне всіх парних чисел: ", num/count)
