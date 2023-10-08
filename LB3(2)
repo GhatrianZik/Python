@@ -1,0 +1,11 @@
+word = str(input("Enter word: "))
+nums = -1
+
+for i in range(len(word)):
+
+    if i != len(word) - 1:
+        if word[i] == word[i + 1]:
+            nums = i 
+
+    if i != int(nums):
+        print(word[i])  
