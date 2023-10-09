@@ -1,0 +1,10 @@
+offer = str(input("Enter offer: "))
+convar = ""
+
+for i in range(len(offer)):
+    if offer[i] == 'b':
+        convar += 'c'
+    else:
+        convar += offer[i]
+
+print(convar)
