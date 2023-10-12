@@ -1,0 +1,12 @@
+for v in range(49):
+    time = v
+    check = True
+    count = 0
+    while check:
+        time = time - 2
+        if time <= 1.99:
+            check = False
+        else:
+            count += 3
+    print("Time: ", v)
+    print("Count amoebas: ", count)
