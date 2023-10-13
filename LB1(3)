@@ -1,0 +1,4 @@
+convar = []
+for v in range(5):
+    convar.insert(0, v + 1)
+    print(convar)
